@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Table with fixed row and column</title>
+    <link rel="stylesheet" type="text/css" href="fixed-table.css">
+	
+    <script src="fixed-table.js"></script>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  
+  <body>
+  <h1>몬스터 정보</h1>
+  
+    <div id="fixed-table-container-1" class="fixed-table-container">
+      <table>
+        <thead>
+          <tr><th>이름</th>      <th>능력(후시겐)</th>               <th>대응</th>           <th>능력(동방)</th>                    <th>종족</th>        </tr>
+        </thead>
+        <tbody>
+          <tr><td><a href="란.png">란</a></td>         <td>장비를 뒤로 쳐냄</td>         <td>중석인</td>         <td>식신</td>                           <td>구미호</td>      </tr>
+          <tr><td><a href="레밀리아.png">레밀리아</a></td> <td>힘을 깎는 흡혈공격</td>       <td>흡혈내성인</td>   <td>운명을 조정</td>                  <td>흡혈귀</td>      </tr>
+          <tr><td><a href="마리사.png">마리사</a></td>    <td>소지품을 훔침</td>             <td>방범인</td>        <td>마법을 사용</td>                  <td>인간</td  >             </tr>
+          <tr><td><a href="사구메.png">사구메</a></td>    <td>HP를 1로 만듬</td>             <td>근절</td>          <td>입 밖에 낸 것을 역전시킴</td>  <td>달의 주민</td>  </tr>
+          <tr><td><a href="쇼.png">쇼</a></td>         <td>인을 훔침</td>                   <td>불발인</td>          <td>재수가 좋아 돈이 잘 모임</td>  <td>요괴</td>        </tr>
+          <tr><td><a href="유카.png">유카</a></td>      <td>꽃을 밟으면 강력해짐</td>     <td>회피</td>               <td>꽃을 조종</td>                    <td>요괴</td>                        </tr>
+          <tr><td><a href="유카리.png">유카리</a></td>    <td>스키마로 아이템 흡수</td>     <td>방범인</td>       <td>경계를 조종</td>                    <td>요괴</td>                        </tr>
+          <tr><td><a href="케이네.png">케이네</a></td>    <td>레벨저하</td>                    <td>레벨저하내성인</td>       <td>역사를 없앰</td>         <td>수인</td>                        </tr>
+          <tr><td><a href="파르시.png">파르시</a></td>    <td>아이템이 많을 때 소멸</td>    <td>아이템보호부적</td>       <td>질투심을 다룸</td>         <td>요괴</td>                        </tr>
+          <tr><td><a href="히나.png">히나</a></td>    <td>강화치를 깍거나 저주</td>     <td>저주내성인</td>       <td>액을 모음</td>         <td>액신</td>                        </tr>
+            
+        </tbody>
+      </table>
+    </div>
+ 
+    <script>
+      var fixedTable1 = fixTable(document.getElementById('fixed-table-container-1'));
+      var fixedTable2 = fixTable(document.getElementById('fixed-table-container-2'));
+    </script>
+	
+  </body>
+  
+</html>
+
+
+<!-- 
+카센
+코마치
+
+코카사
+린
+
+쇼
+바쿠렌
+
+스와코
+루나 차일드
+
+유우무
+사나에
+
+덴시
+스이카
+이쿠
+
+플랑도르
+우츠호
+
+레이센 
+-->

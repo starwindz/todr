@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Table with fixed row and column</title>
+    <link rel="stylesheet" type="text/css" href="fixed-table.css">
+	
+    <script src="fixed-table.js"></script>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  
+  <body>
+  <h1>몬스터 정보</h1>
+  
+    <div id="fixed-table-container-1" class="fixed-table-container">
+      <table>
+        <thead>
+          <tr><th>이름</th>      <th>외형</th> <th>종족</th>        <th>능력(동방)</th>  <th>능력(후시겐)</th> </tr>
+        </thead>
+        <tbody>
+          <tr><td>란</td>         <td><img src="란.png"></td>      <td>구미호</td> <td>식신</td>                          <td>장비를 뒤로 쳐냄(중석인으로 보호)</td> </tr>
+          <tr><td>레밀리아</td> <td><img src="란.png"></td>      <td>흡혈귀</td>      <td>운명을 조정</td>                 <td>힘을 깎는 흡력공격(흡혈내성인으로 보호)</td> </tr>
+          <tr><td>마리사</td>    <td><img src="란.png"></td>      <td>인간</td  >      <td>마법을 사용</td>                  <td>소지품을 훔침(방범인으로 보호)</td></tr>
+          <tr><td>사구메</td>    <td><img src="란.png"></td>      <td>달의 주민</td>  <td>입 밖에 낸 것을 역전시킴</td> <td>벽을 관통하는 탄막공격 또는 오합의 저주(HP를 1로 만듬)</td> </tr>
+          <tr><td>쇼</td>         <td><img src="란.png"></td>      <td>요괴</td>        <td>재수가 좋아 돈이 잘 모임</td> <td>인을 훔침(발인으로 보호)</td> </tr>
+          <tr><td>유카</td>      <td><img src="란.png"></td>      <td>요괴</td>        <td>꽃을 조종</td>                    <td>꽃을 밟으면 무시무시한 적으로 변화</td> </tr>
+            
+        </tbody>
+      </table>
+    </div>
+ 
+    <script>
+      var fixedTable1 = fixTable(document.getElementById('fixed-table-container-1'));
+      var fixedTable2 = fixTable(document.getElementById('fixed-table-container-2'));
+    </script>
+	
+  </body>
+  
+</html>

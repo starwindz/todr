@@ -1,0 +1,21 @@
+﻿- 2017.11.09(목)
+
+[현안]
+1. 추천 무기와 방어구를 추가 
+  (아래 링크 참조하여 작성)
+  : http://cafe.naver.com/playstationvita/211306 (cocone)
+  : http://cafe.naver.com/playstationvita/207455 (starwindz)
+
+2. 기본공략글을 산문형태로 작성
+  (아래 링크 참조하여 작성, 미반입/미식별 던전의 경우도 포함되도록)
+  : http://cafe.naver.com/playstationvita/211306 (cocone)
+  : http://cafe.naver.com/playstationvita/207455 (starwindz)
+  : http://starwindz.woobi.co.kr/todr/%EA%B8%B0%EB%B3%B8%20%EC%A0%84%EB%9E%B5.html
+
+[대기]
+1. 아이템 명칭과 설명이 비어져 있는 경우의 포함
+
+
+[참조]
+1. 아이템 명칭을 개별 정의에서는 일어->한글 순으로 표기하지만,
+   산문형태의 설명글에서는 한글을 먼저로 하여 표기함

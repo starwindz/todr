@@ -1,0 +1,29 @@
+ruby {
+//  display:inline-table;
+//  text-align:center;
+//  white-space:nowrap;
+//  text-indent:0;
+//  margin:0;
+//  vertical-align:-20%;
+//  vertical-align:80%;
+//  vertical-align:0.90em;
+}
+/* ルビベース */
+ruby>rb,ruby>rbc {
+//  display:table-row-group;
+  line-height:130%;
+}
+/* 前側ルビテキスト */
+ruby>rt,ruby>rbc+rtc {
+//  display:table-header-group;
+    font-size:70%;
+//  line-height:80%;
+//  letter-spacing:0;
+}
+
+/* ルビ括弧 */
+/*
+rp {
+  display:none;
+}
+*/
